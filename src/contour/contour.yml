@@ -823,7 +823,7 @@ input_mapping:
     - { mods: [Control],        key: '0',           action: ResetFontSize }
     - { mods: [Control, Shift], key: Minus,         action: DecreaseFontSize }
     - { mods: [Control, Shift], key: '_',           action: DecreaseFontSize }
-    - { mods: [Control, Shift], key: N,             action: NewTerminal }
+    - { mods: [Control, Shift], key: N,             action: NewTerminal, profile: 'main'}
     - { mods: [Control, Shift], key: V,             action: PasteClipboard, strip: false }
     - { mods: [Control, Alt],   key: V,             action: PasteClipboard, strip: true }
     - { mods: [Control],        key: C,             action: CopySelection, mode: 'Select|Insert' }
